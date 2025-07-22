@@ -1,0 +1,29 @@
+.background-wrapper {
+  position: absolute;
+  inset: 0;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+  z-index: -2;
+}
+
+.background-caption {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 0.8rem;
+  color: hsla(0, 0%, 0%, 0.75);
+  background: hsla(0, 0%, 100%, 0.75);
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.background-caption a {
+  color: hsla(0, 0%, 0%, 0.75);
+}
+
+.background-caption a:hover {
+  color: hsl(0, 0%, 0%);
+}
