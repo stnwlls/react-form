@@ -1,0 +1,47 @@
+.info-button {
+  position: fixed;
+  bottom: 10px;
+  left: 15px;
+  width: 26px;
+  height: 26px;
+  font-size: 0.8rem;
+  background-color: hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 0%, 0.75);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.info-button:hover {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.info-panel {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  bottom: 10px;
+  left: 50px;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  background-color: hsl(0, 0%, 100%);
+  color: hsla(0, 0%, 0%, 0.75);
+  border: none;
+  border-radius: 16px;
+  animation: fadeIn 0.5s ease;
+}
+
+.info-panel a {
+  text-decoration: underline;
+  color: hsla(0, 0%, 0%);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
