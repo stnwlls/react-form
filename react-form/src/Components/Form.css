@@ -1,0 +1,27 @@
+.form-container {
+  background-color: hsla(0, 0%, 75%, 0.2);
+  backdrop-filter: blur(2px);
+  padding: 16px 20px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+}
+
+label {
+  color: white;
+  font-weight: 500;
+}
+
+input, select {
+  padding: 5px 10px;
+}
+
+p {
+  color: red;
+}

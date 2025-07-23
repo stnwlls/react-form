@@ -1,16 +1,16 @@
 import './App.css';
 import Background from './Components/Background';
-import Input from './Components/FormInputs'
+import Form from './Components/Form'
 import Info from './Components/Info';
 
 function App() {
 
   return (
-    <>
+    <div className='app'>
       <Background />
-      <Input />
+      <Form />
       <Info />
-    </>
+    </div>
   );
 }
 
